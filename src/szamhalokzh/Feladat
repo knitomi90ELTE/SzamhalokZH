@@ -1,0 +1,16 @@
+Számítógépes Hálózatok Socket ZH
+Feladat
+Készíts egy blackjack alkalmazást socket kommunikációval. Az alkalmazás tartalmazzon egy servert,
+aki több klienst is ki tud szolgálni.
+Folyamat
+Kliens csatlakozik. A server küld neki 2 lapot. A kliens ezután kérhet lapot vagy megállhat. Ha a kliens
+megáll es a lapok értéke kevesebb mint 21 akkor a server elküldi a „nyert” üzenetet. Ha lapot kert es
+a lapok értéke több mint a 21, akkor a server elküldi a „vesztett” üzenetet. A lapok lehetnek egyszerű
+számok, amelyet a szerver véletlengenerátor segítségével generál. (2,3,4…,J(10),Q(10),K(10),A(10))
+Pontozás
+ Server képes több kliens kapcsolatát kezelni (2 pont)
+ Kliens csatlakozik es kap 2 lapot (3 pont)
+ Kliens tud kérni további lapokat (5 pont)
+ Server küldi a „nyert” vagy „vesztett” üzenetet (5 pont)
+ A klienst interaktívan lehet használni, standard inputról olvassa be a lehetőségeket. (5 pont)
+2015-05-02
